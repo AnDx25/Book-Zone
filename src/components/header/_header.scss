@@ -1,0 +1,68 @@
+.header
+{
+    margin: 32px;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+
+    .heading
+    {
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+    }
+    .action-container
+    {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+        .action-icon
+        {
+            margin-left: 16px;
+            width: 24px;
+            height: 24px;
+            cursor:pointer;
+            
+        }
+        .action-icon:hover{
+            background: $hr_gray1;
+            height: 32px;
+            width: 32px;
+            border-radius: 8px;
+        }
+
+    }
+    .profile-container
+    {
+        display: flex;
+        align-items: center;
+
+    }
+    .profile-container label
+    {
+        margin-right: 8px;
+    }
+    .hover-action{
+        
+        border: none;
+        input{
+            transition: 0.3s all ease-in-out;
+            visibility: hidden;
+            width: 0px;
+        }
+        &:focus-within{
+            input{
+                visibility: visible;
+                width: 200px;
+            }
+        }
+        &:hover{
+            border: 1px solid $hr_gray1;
+            input{
+                visibility: visible;
+                width: 200px;
+            }
+        }
+    }
+}

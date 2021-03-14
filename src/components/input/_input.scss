@@ -1,0 +1,69 @@
+
+.input-component
+{
+    border: 1px solid $hr_gray2;
+    padding: 8px;
+    border-radius: 25px;
+    transition: 0.1s all ease-in-out;
+    &.input-component:focus-within
+    {
+       border: 1.5px solid $hr_accent; 
+       background: transparentize($color:$hr_gray1, $amount: 0.75)
+    }
+    
+    .input-icon-container
+    {
+        display: flex;  
+    }
+    .input
+    {
+        border:none;
+        outline: none;
+        background: none;
+        width: 100%;
+        line-height: 16px;
+        font-size: 16px;
+    }
+    
+    svg
+    {
+        margin-left:8px;
+        cursor: pointer;
+    }
+    
+}
+
+.hover-action
+    {
+        transition: 0.3s all ease-in-out;
+        
+        input{
+            visibility: hidden;
+            width: 0px;
+        }
+        .hover-action:focus-within
+        {   
+            input
+            {
+                visibility: visible;
+                width: auto;
+            }
+        }
+        .hover-action:hover
+        {
+            input
+            {
+                visibility: visible;
+                width: auto;
+            }
+        }   
+    }
+.input-error
+{
+    color: $hr_error;
+    font-size: 12px;
+    text-align: right;
+    margin: 0px;
+    margin-top: 4px;
+
+}

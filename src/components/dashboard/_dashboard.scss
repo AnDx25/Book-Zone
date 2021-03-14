@@ -1,0 +1,49 @@
+.dashboard-layout
+{
+    display: flex;
+    height: 100vh;
+    background: white;
+    .side-nav-bar
+    {
+       
+        flex-basis: 10%;
+        min-width: 200px;
+        max-width: 250px;
+        height: 100%;
+        background: white;
+        padding-right: 2em;
+      border-right: 1px solid gray;
+      margin-left: 2em;
+      .nav-container
+      {
+          .container
+          {
+            padding: 1em 0;
+              .options
+              {
+                  margin-bottom: 1.5em;
+                  display: flex;
+                  align-items: center;
+                label
+                {
+                    margin-right: 4em;
+                    margin-left:1em ;
+                } 
+
+              }
+          }
+      }
+        
+    }
+    .main-container
+    {
+        flex-basis: 90%;
+        background:white;
+        border-radius: 24px;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    
+    
+}
