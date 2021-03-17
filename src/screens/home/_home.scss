@@ -1,4 +1,31 @@
 .home-container
 {
     padding: 0 2em;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    .grid-layout
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 1em;
+        row-gap: 1em;
+        margin-bottom: 1em;
+        height: 100%;
+     
+        
+    }
+    .list-layout
+    {
+        margin:2em 0 ;
+        height: 100%;
+        .list-header
+        {
+           display: grid;
+           grid-template-columns: 2fr 1fr 1fr;
+            color: $hr_gray1;
+            font-weight: bolder;
+            margin-bottom: 1em;
+        }
+    }
 }

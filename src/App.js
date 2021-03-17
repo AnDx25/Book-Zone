@@ -4,10 +4,10 @@ import Home from './screens/home/Home'
 import './style/main.scss'
 function App() {
   return (
-    <div className="App">
-      <Dashboard>
-        <Home/>
-      </Dashboard>
+    <div className="app">
+      <Dashboard/>
+       
+     
     </div>
   );
 }

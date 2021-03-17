@@ -1,7 +1,11 @@
 @import '../style/theme';
 @import '../style/common';
 
+@import '../index';
 @import '../components/dashboard/dashboard';
 @import '../components/input/input';
 @import '../components/header/header';
 @import '../screens/home/home';
+@import '../components/gridComponent/gridComponent';
+@import '../components/modal/modal';
+@import '../components/listComponent/listComponent';

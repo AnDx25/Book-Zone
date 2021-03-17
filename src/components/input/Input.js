@@ -7,8 +7,11 @@ const defaultClasses={
     inputComponentClassName:"",
     inputIconContainer:""
 }
-const Input=({type="text",value,name="",label="",id="",icon="",classes={...defaultClasses},placeholder,onChange,
+const Input=({type="text",value,name="",label="",id="",icon="",classes={...defaultClasses},placeholder,setSearchInput,
 onFocus=()=>{},onBlur=()=>{},errors})=>{
+    const onChangeHandler=(event)=>{
+        setSearchInput(event.target.value);
+    }
     const {inputClassName,labelClassName,iconClassName,inputComponentClassName,inputIconContainer}=classes
     return(
         <Fragment>
@@ -17,7 +20,7 @@ onFocus=()=>{},onBlur=()=>{},errors})=>{
                 label &&( <label className={`label ${labelClassName}`}>{label}</label>)
             }
            <div className={`input-icon-container ${inputIconContainer}`}>
-            <input id={id} onChange={onChange} className={`input ${inputClassName}`} type={type} value={value} name={name} placeholder={placeholder}
+            <input id={id} onChange={onChangeHandler} className={`input ${inputClassName}`} type={type} value={value} name={name} placeholder={placeholder}
             onFocus={onFocus}
             onBlur={onBlur}
             />

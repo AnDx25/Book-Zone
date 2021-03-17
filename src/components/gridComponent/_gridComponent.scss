@@ -1,0 +1,53 @@
+.grid-card-container
+{
+    height: 80%;
+    color:white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    .card
+    {
+        height: 100%;
+        border-radius: 24px;
+        position: relative;
+        .reading-progress
+        {
+            position: absolute;
+            top: 1em;
+            left:1em;
+            background-color: $hr_gray1;
+           padding: .5em;
+           border-radius: 24px;
+           width: 3em;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+
+        }
+        .genere
+        {
+            position: absolute;
+            bottom: 1em;
+            right: 1em;
+            background-color: transparent;
+
+           
+            font-weight: bolder;
+            padding: .5em;
+            border-radius: 24px;
+            width: 3em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .book-name
+        {
+            color: black;
+        }
+    }
+
+}
