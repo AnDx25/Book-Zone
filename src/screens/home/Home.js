@@ -18,7 +18,7 @@ const Home=({isDark})=>{
 
     //Component Did mount phase used to set the data into data array 
     useEffect(()=>{
-        fetch("http://localhost:3000/data/BookCollection.json")
+        fetch("https://andx25.github.io/Book-Zone/data/BookCollection.json")
         .then(response=>response.json())
      .then(data=>setData(data.items))
      .catch((err)=>{
