@@ -1,6 +1,7 @@
 import Modal from "../modal/Modal"
 import {useState} from 'react'
 const ListComponent=({src,bookTitle,author,genre,readingProgress,outline})=>{
+      //Setting the state of showModal which will make the modal appear when any book component is clicked
     const [showModal,setShowModal]=useState(false);
     const handleCardClick=()=>{
         setShowModal(!showModal);
@@ -23,7 +24,7 @@ const ListComponent=({src,bookTitle,author,genre,readingProgress,outline})=>{
                 outline={outline}
                 author={author}
             >
-                
+             {/*Modal Component  */}
             </Modal>
         </div>
     )

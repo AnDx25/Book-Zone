@@ -1,7 +1,8 @@
 import { useState } from "react";
 import Modal from "../modal/Modal";
 
-const GridComponent=({src,title="",author="",genere="",readingProgress,outline})=>{
+const GridComponent=({src,bookTitle="",author="",genere="",readingProgress,outline})=>{
+  //Setting the state of showModal which will make the modal appear when any book component is clicked
     const [showModal,setShowModal]=useState(false);
     const handleCardClick=()=>{
         setShowModal(!showModal);
@@ -19,14 +20,14 @@ const GridComponent=({src,title="",author="",genere="",readingProgress,outline})
 
             </div>
             <div className="book-name">
-               <span style={{color:"black"}}>  {title}</span>
+               <span style={{color:"black"}}>  {bookTitle}</span>
             </div>
             <div className="author">
               <span style={{color:"black"}}>  {author}</span>
             </div>
             <Modal setShowModal={setShowModal} showModal={showModal}
                 src={src}
-                title={title}
+                bookTitle={bookTitle}
                 outline={outline}
                 author={author}
             >

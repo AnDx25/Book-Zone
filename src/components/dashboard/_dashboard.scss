@@ -1,4 +1,4 @@
-.dashboard-layout
+.dashboard-layout-white
 {
     display: flex;
     height: 100vh;
@@ -50,7 +50,87 @@
     }
     
 }
+.dashboard-layout-dark
+{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background:black;
+    color:white;
+    .side-nav-bar
+    {
+       
+        flex-basis: 10%;
+        min-width: 200px;
+        max-width: 250px;
+        height: 100%;
+        background:black;
+        color: white;
+        padding-right: 2em;
+      border-right: 1px solid gray;
+      margin-left: 2em;
+      .nav-container
+      {
+          .container
+          {
+            padding: 1em 0;
+              .options
+              {
+                  margin-bottom: 1.5em;
+                  display: flex;
+                  align-items: center;
+                label
+                {
+                    margin-right: 4em;
+                    margin-left:1em ;
+                }
+                .dark-mode
+                {
+                  cursor: pointer;
+                } 
+
+              }
+          }
+      }
+        
+    }
+    .main-container
+    {
+        flex-basis: 90%;
+        background:black;
+        color: white;
+        border-radius: 24px;
+        height: 100%;
+        width: 100%;
+        overflow: auto;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    }
+}
+
 @media only screen and (max-width: 768px) {
+  .dashboard-layout-white
+  {
+    display: flex;
+    flex-direction: column;
+    .side-nav-bar
+    {
+      display: none;
+    }
+    .main-container
+    {
+      width: 100%;
     
+      display: flex;
+      flex-basis: 100%;
+      flex-wrap:nowrap;
+      flex-direction: column;
+      margin: 1em;
+      overflow-x: unset;
+      overflow-y: unset;
+    }
+    
+  }
     
 }

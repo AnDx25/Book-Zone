@@ -8,7 +8,7 @@ const defaultClasses={
     inputIconContainer:""
 }
 const Input=({type="text",value,name="",label="",id="",icon="",classes={...defaultClasses},placeholder,setSearchInput,
-onFocus=()=>{},onBlur=()=>{},errors})=>{
+onFocus=()=>{},onBlur=()=>{},errors,isDark})=>{
     const onChangeHandler=(event)=>{
         setSearchInput(event.target.value);
     }
@@ -21,7 +21,7 @@ onFocus=()=>{},onBlur=()=>{},errors})=>{
             }
            <div className={`input-icon-container ${inputIconContainer}`}>
             <input id={id} onChange={onChangeHandler} className={`input ${inputClassName}`} type={type} value={value} name={name} placeholder={placeholder}
-            onFocus={onFocus}
+            onFocus={onFocus} 
             onBlur={onBlur}
             />
             {/* id={id} onChange={onChange} className={`input ${inputClassName}`} type={type} value={value} name={name} placeholder={placeholder} */}

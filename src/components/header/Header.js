@@ -3,7 +3,7 @@ import {FiGrid} from 'react-icons/fi'
 import {VscListSelection} from 'react-icons/vsc'
 import {BsSearch} from 'react-icons/bs'
 import Input from '../input/Input'
-const Header=({pageHeader,setIsGrid,setSearchInput})=>{
+const Header=({pageHeader,setIsGrid,setSearchInput,isDark})=>{
     const handleGrid=()=>{
        setIsGrid(true);
     }
@@ -22,7 +22,7 @@ const Header=({pageHeader,setIsGrid,setSearchInput})=>{
             <div className="action-container">
                 <FiGrid onClick={handleGrid} className={"action-icon"}/>
                 <VscListSelection onClick={handleList} className={"action-icon"}/>
-                <Input icon={<BsSearch/>} classes={{inputComponentClassName:"hover-action"}}
+                <Input icon={<BsSearch/>} isDark={isDark} classes={{inputComponentClassName:"hover-action"}}
                     setSearchInput={setSearchInput}
                 />
             </div>
