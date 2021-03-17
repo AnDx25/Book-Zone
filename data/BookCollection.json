@@ -1,0 +1,75 @@
+{   
+    "items":[{
+        "id":1,
+        "title":"Faith",
+        "Author":"David Adams",
+        "img":"https://i.redd.it/3g7tybh02tz11.jpg",
+        "genere":"Fiction",
+        "readingProgress":"72%",
+        "outline":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+
+    },
+    {
+        "id":2,
+        "title":"World",
+        "Author":"Brian Adams",
+        "img":"https://i.pinimg.com/564x/38/9f/de/389fde14b2475a4ea7f02abaade99fe0.jpg",
+        "genere":"Universe",
+        "readingProgress":"40%",
+        "outline":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+
+    },
+    {
+        "id":3,
+        "title":"Brook",
+        "Author":"Quenstia Shashwank",
+        "img":"https://i.pinimg.com/236x/c4/d6/4d/c4d64d13fe5c2ce0cb6a35dba2441ae0.jpg",
+        "genere":"Drama",
+        "readingProgress":"72%",
+        "outline":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+
+    },
+    {
+        "id":4,
+        "title":"Road Taken",
+        "Author":"David Adams",
+        "img":"https://i.pinimg.com/236x/a2/84/a3/a284a3d94ff4d6bb988a874f0fbe1943.jpg",
+        "genere":"Biography",
+        "readingProgress":"26%",
+        "outline":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+
+    },
+    {
+        "id":5,
+        "title":"Faith",
+        "Author":"David Adams",
+        "img":"https://i.pinimg.com/236x/84/1b/bc/841bbc78629755ee6994d3410046bab8.jpg",
+        "genere":"Fiction",
+        "readingProgress":"90%",
+        "outline":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+
+    },
+    {
+        "id":6,
+        "title":"Nature",
+        "Author":"Kavin Klean",
+        "img":"https://i.pinimg.com/originals/45/db/15/45db157cf2235d436b17d242aea189df.jpg",
+        "genere":"Science",
+        "readingProgress":"60%",
+        "outline":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+
+    },
+    {
+        "id":7,
+        "title":"Complexity",
+        "Author":"James Karter",
+        "img":"https://i.pinimg.com/originals/c8/45/4b/c8454bc43be96d8ee4a4d374153fd5f2.jpg",
+        "genere":"Drama",
+        "readingProgress":"60%",
+        "outline":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+
+    }
+]
+
+}
+

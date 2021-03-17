@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Book-Zone/static/css/main.7bc570e2.chunk.css",
+    "main.js": "/Book-Zone/static/js/main.86b33481.chunk.js",
+    "main.js.map": "/Book-Zone/static/js/main.86b33481.chunk.js.map",
+    "runtime-main.js": "/Book-Zone/static/js/runtime-main.dabb5ce7.js",
+    "runtime-main.js.map": "/Book-Zone/static/js/runtime-main.dabb5ce7.js.map",
+    "static/js/2.eee46f13.chunk.js": "/Book-Zone/static/js/2.eee46f13.chunk.js",
+    "static/js/2.eee46f13.chunk.js.map": "/Book-Zone/static/js/2.eee46f13.chunk.js.map",
+    "static/js/3.abc27daf.chunk.js": "/Book-Zone/static/js/3.abc27daf.chunk.js",
+    "static/js/3.abc27daf.chunk.js.map": "/Book-Zone/static/js/3.abc27daf.chunk.js.map",
+    "index.html": "/Book-Zone/index.html",
+    "static/css/main.7bc570e2.chunk.css.map": "/Book-Zone/static/css/main.7bc570e2.chunk.css.map",
+    "static/js/2.eee46f13.chunk.js.LICENSE.txt": "/Book-Zone/static/js/2.eee46f13.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Book-Zone/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dabb5ce7.js",
+    "static/js/2.eee46f13.chunk.js",
+    "static/css/main.7bc570e2.chunk.css",
+    "static/js/main.86b33481.chunk.js"
+  ]
+}
